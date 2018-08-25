@@ -1,80 +1,115 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Juan Sebastian Ramos Gomez </title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-</head>
-<body>
-<div id="personal_info">
-	<div id= info>
-        <div id="name">
-            <h1>Juan Sebastian Ramos Gomez</h1>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <title>Juan Sebastian Ramos Gomez </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+  <div class= "row justfy-content-center abajo" id="personal_info">
+  	<div class="col-sm-6 abajo" id= info>
+          <div id="name">
+              <h1>Juan Sebastian Ramos Gomez</h1>
+          </div>
+          <div id="description">
+
+  <p>I'm a 20-year-old computer and systems engineer. I have experience in the music and logistics area throughout my life, I also have hobbies such as climbing, raising pets and running.</p>
+          </div>
+      </div>
+  <div class="container col-sm-6 abajo">
+    <div id="Photos" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#Photos" data-slide-to="0" class="active"></li>
+        <li data-target="#Photos" data-slide-to="1"></li>
+        <li data-target="#Photos" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/foto1.jpg" alt="Los Angeles" style="width:100%;">
         </div>
-        <div id="description">
 
-<p>I'm a 20-year-old computer and systems engineer. I have experience in the music and logistics area throughout my life, I also have hobbies such as climbing, raising pets and running.</p>
+        <div class="item">
+          <img src="images/foto2.jpg" alt="Chicago" style="width:100%;">
         </div>
+      
+        <div class="item">
+          <img src="images/foto3.jpg" alt="New york" style="width:100%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#Photos" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#Photos" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-<div class="container">
-  <div id="Photos" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#Photos" data-slide-to="0" class="active"></li>
-      <li data-target="#Photos" data-slide-to="1"></li>
-      <li data-target="#Photos" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="images/foto1.jpg" alt="Los Angeles" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="images/foto2.jpg" alt="Chicago" style="width:100%;">
-      </div>
-    
-      <div class="item">
-        <img src="images/foto3.jpg" alt="New york" style="width:100%;">
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#Photos" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#Photos" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-</div>
-</div>
-<div id="hobbies"></div>
-<h1>Hobbies</h1>
-<ul>
-    <li>Sing</li>
-    <li>Climbing trees</li>
-    <li>VideoGames</li>
-</ul>
-<div id="Jobs"></div>
-<ol>
-    <h1>Jobs</h1>
-    <li>Singer (10 years)</li>
-    <li>Logistics assistant(1 Year)</li>
-    <li>Junior consultant(6 months)</li>
-</ol>
-<div id="Skills"></div>
-<ul>
-    <h1>Skills</h1>
-    <li>Code Skills</li>
-    <li>Communicative Skills</li>
-    <li>Team Skills</li>
-    <li>Academy Skills</li>
-</ul>
-<!-- Scripts-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-</html>
+  </div>
+  <div class= "row justfy-content-center abajo" id="hobbies"></div>
+  <h1 class="container col-sm-6 abajo">Hobbies</h1>
+  <ul class="list-group container col-sm-6 abajo">
+      <li class="list-group-item">Sing</li>
+      <li class="list-group-item">Climbing trees</li>
+      <li class="list-group-item">VideoGames</li>
+  </ul>
+  <div class= "row justfy-content-center abajo" id="Jobs">
+  <ul class="list-group container col-sm-6 abajo">
+      <li class="list-group-item d-flex justify-content-between align-items-center">Singer
+      <span class="badge badge-primary badge-pill">10 years</span>
+       </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">Logistics assistant
+        <span class="badge badge-primary badge-pill">1 year</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">Junior consultant
+        <span class="badge badge-primary badge-pill">6 months</span>
+      </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Videogame analyst
+        <span class="badge badge-primary badge-pill">2 years</span>
+      </li>
+  </ul>
+  <h1 class="container col-sm-6 abajo">Jobs</h1>
+  </div>
+  <div class= "row justfy-content-center abajo" id="Skills">
+    <h1 class="container col-sm-6 abajo">Skills</h1>
+  <ul class="container col-sm-6 abajo">
+      <li>Code Skills
+      <div class="progress">
+      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+        50%
+      </div>
+    </div>
+    </li>
+      <li>Communicative Skills
+          <div class="progress">
+      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+        75%
+      </div>
+    </div>
+  </li>
+      <li>Team Skills
+        <div class="progress">
+      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+        80%
+      </div>
+    </div>
+  </li>
+      <li>Artistics Skills
+          <div class="progress">
+      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+        60%
+      </div>
+    </div>
+  </li>
+  </ul>
+  </div>
+  <!-- Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+  </html>
